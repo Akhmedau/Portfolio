@@ -13,6 +13,8 @@
 		35BD234129080D69009B84A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BD233F29080D69009B84A5 /* Main.storyboard */; };
 		35BD234329080D6D009B84A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35BD234229080D6D009B84A5 /* Assets.xcassets */; };
 		35BD234629080D6D009B84A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BD234429080D6D009B84A5 /* LaunchScreen.storyboard */; };
+		35BD234E29080DC1009B84A5 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD234D29080DC1009B84A5 /* EntryViewController.swift */; };
+		35BD23502908163B009B84A5 /* NoteViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD234F2908163B009B84A5 /* NoteViewConroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		35BD234229080D6D009B84A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35BD234529080D6D009B84A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35BD234729080D6D009B84A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35BD234D29080DC1009B84A5 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		35BD234F2908163B009B84A5 /* NoteViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewConroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		35BD233829080D69009B84A5 /* SimpleNotes */ = {
 			isa = PBXGroup;
 			children = (
+				35BD234F2908163B009B84A5 /* NoteViewConroller.swift */,
+				35BD234D29080DC1009B84A5 /* EntryViewController.swift */,
 				35BD233929080D69009B84A5 /* AppDelegate.swift */,
 				35BD233B29080D69009B84A5 /* SceneDelegate.swift */,
 				35BD233D29080D69009B84A5 /* ViewController.swift */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				35BD233E29080D69009B84A5 /* ViewController.swift in Sources */,
+				35BD234E29080DC1009B84A5 /* EntryViewController.swift in Sources */,
 				35BD233A29080D69009B84A5 /* AppDelegate.swift in Sources */,
+				35BD23502908163B009B84A5 /* NoteViewConroller.swift in Sources */,
 				35BD233C29080D69009B84A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SimpleNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.YourOwn.SimpleNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SimpleNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.YourOwn.SimpleNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

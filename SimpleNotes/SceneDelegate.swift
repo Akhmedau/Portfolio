@@ -1,8 +1,4 @@
-//
-//  SceneDelegate.swift
-//  SimpleNotes
-//
-//  Created by АХМЕДОВ НИКОЛАЙ on 25/10/2022.
+
 //  Copyright © 2022 Ahmedov Nikolay. All rights reserved.
 //
 
